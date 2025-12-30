@@ -236,7 +236,7 @@ Projeto desenvolvido com foco em **modelagem de dados**, **bancos de dados relac
 
 - 📧 **E-mail:** f.daniel.m@gmail.com  
 - 💼 **LinkedIn:** www.linkedin.com/in/danixdev
-- 📁 **Trabalhos:** 
+- 📁 **Trabalhos:** https://danixdev.blogspot.com/2025/12/estudo-de-caso-livraria-paginas-letras.html
 
 ---
 
