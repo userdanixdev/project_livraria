@@ -4,6 +4,7 @@
 .venv/
 venv/
 env/
+amb_virt_bookstore/
 
 # =========================
 # Cache e arquivos Python

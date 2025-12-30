@@ -83,30 +83,16 @@ O relacionamento entre **Livro** e **Autor** é do tipo **muitos-para-muitos (N:
 O relacionamento entre **Sale** e **Book** é do tipo **muitos-para-muitos (N:N)**, pois uma venda pode conter vários livros e um mesmo livro pode participar de várias vendas. Como relacionamentos N:N não podem ser representados diretamente em bancos de dados relacionais, foi criada a entidade associativa **Item_Sale**, responsável por vincular cada livro a uma venda específica e armazenar informações próprias dessa relação, como quantidade vendida e preço unitário no momento da venda, garantindo integridade e normalização dos dados.
 
 
-
-🔗 Relacionamentos e Cardinalidades 
-
-book ↔ author → N:N **(via book_author entidade associativa)**
-
-publisher ↔ book → 1:N
-
-category ↔ book → 1:N
-
-employee ↔ sale → 1:N
-
-sale ↔ book → N:N **(via item_sale entidade associativa)**
-
-client ↔ venda → 1:N
-
-
 ## 🖼️ Diagrama MER
 
 O diagrama MER representa graficamente as entidades, seus atributos e relacionamentos, facilitando a compreensão da estrutura do banco de dados e servindo como referência para a implementação do modelo lógico e físico.
 
-https://dbdesigner.page.link/Y3G7G9Myu3yjas3q7
+https://dbdesigner.page.link/Y3G7G9Myu3yjas3q7 **Modelo James Martins**
+
+https://app.brmodeloweb.com/#!/publicview/6953fe642d5d876a222813b3 **Modelo Peter Chen**
 ---
 
-## 🚀 Considerações Finais
+## 🚀 Considerações Inicias:
 
 Este projeto demonstra a aplicação prática dos conceitos de **modelagem de dados**, **normalização** e **bancos de dados relacionais**, utilizando boas práticas amplamente adotadas no mercado.
 
@@ -249,7 +235,8 @@ Projeto desenvolvido com foco em **modelagem de dados**, **bancos de dados relac
 ## 📬 Contato
 
 - 📧 **E-mail:** f.daniel.m@gmail.com  
-- 💼 **LinkedIn:** www.linkedin.com  
+- 💼 **LinkedIn:** www.linkedin.com/in/danixdev
+- 📁 **Trabalhos:** 
 
 ---
 
