@@ -1,0 +1,66 @@
+
+book {
+	_isbn string pk *>* book_author._isbn
+	_title string
+	_year_publication integer
+	_price float
+	_edition string
+	_stock integer
+	_id_publisher integer > publisher.id
+	_id_category integer > category.id
+}
+
+author {
+	_id_author integer pk increments *>* book_author._id_author
+	_name string
+	_nationality string
+}
+
+book_author {
+	_isbn string
+	_id_author integer
+}
+
+publisher {
+	_id_publisher integer pk increments >* book._id_publisher
+	_name string
+	_cnpj string unique
+	_contact string
+}
+
+category {
+	_id_category integer pk increments >* book._id_category
+	_name_category string
+	_description string
+}
+
+employee {
+	_id_employee integer pk increments >* sale._id_employee
+	_name string
+	_role string
+}
+
+sale {
+	_id_sale integer pk increments
+	_date_sale date
+	_valor_total float
+	_payment_method string
+	_id_employee integer
+	_id_client integer
+}
+
+item_sale {
+	_id_sale integer *>* sale._id_sale
+	_isbn string *>* book._isbn
+	_quantity integer
+	_price_unit float
+}
+
+client {
+	_id_client integer pk increments >* sale._id_client
+	_name string
+	_cpf string unique
+	_email string
+	_phone string
+}
+

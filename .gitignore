@@ -1,0 +1,55 @@
+# =========================
+# Ambiente Virtual (Python)
+# =========================
+.venv/
+venv/
+env/
+
+# =========================
+# Cache e arquivos Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+!.vscode/extensions.json
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs e arquivos temporários
+# =========================
+*.log
+*.tmp
+
+# =========================
+# Arquivos de sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Build e distribuição
+# =========================
+build/
+dist/
+*.egg-info/
+
+# =========================
+# Banco de dados (opcional)
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+# =========================
+# Conda
+# =========================
+.conda/
